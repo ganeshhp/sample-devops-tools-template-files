@@ -9,5 +9,5 @@ spec:
     - ReadWriteMany
   storageClassName: nfs
   nfs:
-    server: 192.168.1.7
-    path: "/srv/nfs"
+    server: 10.142.0.4
+    path: "/exports/volumes/pod"
